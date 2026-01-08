@@ -36,7 +36,7 @@ export default function Hero1() {
 
     return (
         <>
-            <section className="hero-section-version1 position-relative" style={{ overflow: 'hidden' }}>
+            <section className="hero-section position-relative" style={{ overflow: 'hidden' ,marginTop:90}}>
                 {banners.length > 0 ? (
                     <Swiper
                         modules={[Autoplay, EffectFade, Pagination]}
@@ -102,7 +102,7 @@ export default function Hero1() {
                 ) : null}
 
                 {/* Fixed Stats Section - Kept as per your instruction */}
-                <div className="hero-expriencebox d-flex align-items-center" style={{ border: 'none', boxShadow: 'none' }}>
+                {/* <div className="hero-expriencebox d-flex align-items-center" style={{ border: 'none', boxShadow: 'none' }}>
                     <div className="expri-content d-flex align-items-center gap-xxl-11 gap-xl-9 gap-lg-7 gap-6">
                         <div className="expri-cont-item">
                             <h6 className="white-clr mb-2">
@@ -121,7 +121,7 @@ export default function Hero1() {
                             </span>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         </>
     );
